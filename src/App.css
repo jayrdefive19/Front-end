@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Lato:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 800;
+  color: #010326;
+}
+
+.lblue {
+  color: #7ebde4;
+}
+
+.bg-lblue {
+  background-color: #7ebde4;
+}
+
+
+#home {
+  height: 100vh;
+  background-size: cover;
+}
+
+.intro {
+  padding-top: 40vh;
+  text-align: right;
+}
+
+.loginpg {
+  width: auto;
+  height: 100vh;
+  padding: 10%;
+  background-size: cover;
+}
+
+
+@keyframes ease {
+  from {opacity: 0;}
+  to {opacity: 100; }
+}
+.loginform {
+  height: 700px;
+  width: auto;
+  border-radius: 1%;
+  background-color: white;
+  opacity: 100;
+  animation-name: ease;
+  animation-duration: 1s;
+}
+.ryt {
+  background-color: #369ad7;
+  animation-name: color;
+  animation-duration: 5s;
+}
+
+.signbtn {
+  background-color: #369ad7 !important;
+}
+@keyframes color {
+  from {color: white;}
+  to {color: #52a3d6;;}
+}
+.login {
+  color:#52a3d6;
+  padding: 40px;
+
+}
+  .homecover{
+    height: 300px;
+    background-size: cover;
+    background-color: #5f5f5f;
+  }
+
+  .servicespic {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
+
+  .title {
+    margin-top: 150px;
+  }
+
+  .petcard {
+    height: 280px;
+    width: 200px;
+    border: 1px solid rgb(218, 218, 218);
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .petpic {
+    height: 140px;
+    width: 140px;
+    border: 1px solid rgb(218, 218, 218);
+ 
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-size: cover;
+  }

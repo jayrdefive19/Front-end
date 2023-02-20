@@ -1,0 +1,27 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+  }
+
+.dblue {
+    background-color: #010326;
+    color: white;
+    position: fixed;
+  }
+  
+  .navlink {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navlink div:hover {
+    background-color: #52a3d6;
+    color: #010326;
+  }
+  
+  .logo {
+    height: 40px;
+    margin: 10px;
+  }
+  
+ 
